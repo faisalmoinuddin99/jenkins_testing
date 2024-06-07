@@ -6,8 +6,9 @@ class Test {
 
         int[] a = {1, 2, 4, 5, 6, 6};
 
-		int sum_greater_than_three = Arrays.stream(a).filter(x -> x > 3)
-                        .map(x -> x + 10).sum() ;
-		System.out.println("sum_greater_than_three :" + sum_greater_than_three);
-	}
+        int sum_greater_than_three = Arrays.stream(a).filter(x -> x > 3)
+                .map(x -> x + 10)
+                .skip(1).sum();
+        System.out.println("sum_greater_than_three :" + sum_greater_than_three);
+    }
 }
