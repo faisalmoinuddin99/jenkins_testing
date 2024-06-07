@@ -12,5 +12,6 @@ class Test {
         System.out.println("sum_greater_than_three :" + sum_greater_than_three);
 
         System.out.println("We have selected Poll SCM");
+        System.out.println("Repo Polling V2");
     }
 }
