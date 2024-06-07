@@ -13,5 +13,6 @@ class Test {
 
         System.out.println("We have selected Poll SCM");
         System.out.println("Repo Polling V2");
+        System.out.println("testing smtp mail server");
     }
 }
