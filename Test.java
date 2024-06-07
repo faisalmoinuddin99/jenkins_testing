@@ -10,5 +10,7 @@ class Test {
                 .map(x -> x + 10)
                 .skip(1).sum();
         System.out.println("sum_greater_than_three :" + sum_greater_than_three);
+
+        System.out.println("We have selected Poll SCM");
     }
 }
